@@ -11,7 +11,7 @@ netbios_packet.cpp     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 smb_packet.cpp         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 browser_packet.cpp   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__|  
   
-Содержимое browserparser/header :  
+Содержимое <\t>browserparser/header :  
 
 pcap.h               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - описание заголовка и формата фреймов pcap файла.  
 packet.h             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - абстрактный класс, служащий основой для описания классов пакетов различных протоколов.  
@@ -24,9 +24,7 @@ smb_packet.h         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 browser_packet.h   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__|  
   
                                 Сборка.
-```
 make COMP=<компилятор> 
-```
 Например make COMP=g++ или make COMP=clang.  
 Запуск make без аргументов соответствует выбору g++. 
 
