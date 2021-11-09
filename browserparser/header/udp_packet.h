@@ -30,7 +30,7 @@ public:
     virtual void print_fields() const override;
     /**
     \bref Метод get_next_level. 
-    \details Возвращает пакет следюущего уровня. 
+    \details Возвращает пакет следующего уровня. 
     \return  Указатель на пакет следующего уровня.
     */
     virtual std::shared_ptr<packet> get_next_level() override;
