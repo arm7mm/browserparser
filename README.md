@@ -4,7 +4,7 @@
 main.cpp              - функция main().  
 parser.cpp            - методы класса разбора файла parser.  
 ethernetII_packet.cpp -+  
-ipv4_packet.cpp        |   
+ipv4_packet.cpp        <br />|   
 udp_packet.cpp         |  методы классов  
 netbios_packet.cpp     |  соответствеущих протоколов.  
 smb_packet.cpp         |  
@@ -30,5 +30,5 @@ make COMP=<компилятор>
 
                                 Запуск.
                                 
-./broeserparser <имя pcap файла>  
-Например ./broeserparser browser.pcap  
+./browserparser <имя pcap файла>  
+Например ./browserparser browser.pcap  
