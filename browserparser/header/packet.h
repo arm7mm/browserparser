@@ -36,9 +36,8 @@ public:
     virtual void print_fields() const = 0;
     /**
     \bref Метод getNextLevel. 
-    \details Возвращает пакет следюущего уровня. 
-    \return При успехе значение success и соответствующее смещение в буфере,
-            failure иначе.
+    \details Возвращает пакет следующего уровня. 
+    \return Указатель на пакет следующего уровня.
     */
     virtual std::shared_ptr<packet> get_next_level() = 0;
     /**
