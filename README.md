@@ -1,6 +1,6 @@
 # browserparser                                 
 
-Содержимое /src : 
+Содержимое browserparser/src : 
 
 main.cpp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - функция main().  
 parser.cpp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- методы класса разбора файла.  
@@ -11,7 +11,7 @@ netbios_packet.cpp     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 smb_packet.cpp         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 browser_packet.cpp   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__|  
   
-Содержимое /header :  
+Содержимое browserparser/header :  
 
 pcap.h               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - описание заголовка и формата фреймов pcap файла.  
 packet.h             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - абстрактный класс, служащий основой для описания классов пакетов различных протоколов.  
