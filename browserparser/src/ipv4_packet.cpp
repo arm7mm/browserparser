@@ -50,7 +50,7 @@ void ipv4_packet::print_fields() const {
 
 /**
 \bref Метод get_next_level. 
-\details Возвращает пакет следюущего уровня. 
+\details Возвращает пакет следующего уровня. 
 \return Указатель на пакет следующего уровня.
 */
 shared_ptr<packet> ipv4_packet::get_next_level(){
