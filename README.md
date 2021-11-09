@@ -1,6 +1,7 @@
 # browserparser                                 
 
-Содержимое /src :  
+Содержимое /src : 
+
 main.cpp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - функция main().  
 parser.cpp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- методы класса разбора файла parser.  
 ethernetII_packet.cpp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-+  
@@ -11,6 +12,7 @@ smb_packet.cpp         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 browser_packet.cpp   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__|  
   
 Содержимое /header :  
+
 pcap.h               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - описание заголовка и формата фреймов pcap файла.  
 packet.h             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - абстрактный класс, служащий основой для описания классов пакетов различных протоколов.  
 unalligned_ptr.h     &nbsp;&nbsp;- класс для доступа к невыровненным данным.  
