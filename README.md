@@ -1,26 +1,25 @@
 # browserparser                                 
 
 Содержимое /src :  
-main.cpp              - функция main().  
-parser.cpp            - методы класса разбора файла parser.  
-ethernetII_packet.cpp -+  
-ipv4_packet.cpp        <br />|   
-udp_packet.cpp         |  методы классов  
-netbios_packet.cpp     |  соответствеущих протоколов.  
-smb_packet.cpp         |  
-browser_packet.cpp   __|  
+main.cpp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - функция main().  
+parser.cpp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- методы класса разбора файла parser.  
+ethernetII_packet.cpp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-+  
+ipv4_packet.cpp        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   
+udp_packet.cpp         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  методы классов  
+netbios_packet.cpp     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  соответствующих протоколов.  
+smb_packet.cpp         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
+browser_packet.cpp   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__|  
   
 Содержимое /header :  
-pcap.h                - описание заголовка и формата фреймов pcap файла.  
-packet.h              - актсрактный класс, служащий основой для  
-                        описания классов пакетов различных протоколов.  
-unalligned_ptr.h      - класс для даступа к невыровненным данным.  
-ethernetII_packet.h -+  
-ipv4_packet.h        |   
-udp_packet.h         |  описание классов  
-netbios_packet.h     |  соответствеущих протоколов.  
-smb_packet.h         |  
-browser_packet.h   __|  
+pcap.h               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - описание заголовка и формата фреймов pcap файла.  
+packet.h             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - абстрактный класс, служащий основой для описания классов пакетов различных протоколов.  
+unalligned_ptr.h     &nbsp;&nbsp;- класс для доступа к невыровненным данным.  
+ethernetII_packet.h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -+  
+ipv4_packet.h        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|   
+udp_packet.h        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  описание классов  
+netbios_packet.h    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  соответствующих протоколов.  
+smb_packet.h         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
+browser_packet.h   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__|  
   
                                 Сборка.
 
