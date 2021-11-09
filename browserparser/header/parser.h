@@ -69,7 +69,7 @@ private:
     */
     pcap::timestype_t timestype;
     /**
-    \bref Класс потоковаго чтения из файла. 
+    \bref Класс потокового чтения из файла. 
     \details .   
     */
     std::ifstream in;
