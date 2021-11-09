@@ -24,8 +24,9 @@ smb_packet.h         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 browser_packet.h   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__|  
   
                                 Сборка.
-
-make COMP=<компилятор>  
+```
+make COMP=<компилятор> 
+```
 Например make COMP=g++ или make COMP=clang.  
 Запуск make без аргументов соответствует выбору g++. 
 
