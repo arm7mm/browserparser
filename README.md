@@ -1,5 +1,4 @@
-# browserparser                                
-Описание программы.  
+# browserparser                                 
 
 Содержимое /src :  
 main.cpp              - функция main().  
@@ -23,11 +22,13 @@ netbios_packet.h     |  соответствеущих протоколов.
 smb_packet.h         |  
 browser_packet.h   __|  
   
-                                Сборка программы.
+                                Сборка.
 
 make COMP=<компилятор>  
 Например make COMP=g++ или make COMP=clang.  
-Запуск make без аргументов соответствует выбору g++.  
-                                Запуск  
+Запуск make без аргументов соответствует выбору g++. 
+
+                                Запуск.
+                                
 ./broeserparser <имя pcap файла>  
 Например ./broeserparser browser.pcap  
